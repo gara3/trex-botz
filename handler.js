@@ -3067,7 +3067,7 @@ Saya *${botname}*, Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 ──────────────
   _> *INFO BOT*_
-👑 Creator : *Lexxy Official*
+👑 Creator : *Andhi Permana*
 👤 Owner : *${ownername}*
 🤖 Bot Name : *${botname}*
 📑 Tanggal : *${tanggal}*
