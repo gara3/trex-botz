@@ -1373,9 +1373,9 @@ break
             }
             break
             case 'antilink': {
-                if (!m.isGroup) throw mess.group
-                if (!isBotAdmins) throw mess.botAdmin
-                if (!isAdmins) throw mess.admin
+                if (!m.isGroup) return reply(mess.group)
+				if (!isBotAdmins) return reply(mess.botAdmin)
+				if (!isAdmins) return reply(mess.admin)
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].antilink) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].antilink = true
@@ -1452,12 +1452,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/gara3/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +62 896-2835-7103'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1491,12 +1491,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/gara3'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +62 896-2835-7103'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3344,12 +3344,12 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Lexxy24/KaguraMD'
+                                    url: 'https://github.com/gara3'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 822-7991-5237'
+                                    phoneNumber: '+62 896-2835-7103'
                                 }
                             },{
                                 quickReplyButton: {
@@ -3369,13 +3369,13 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        kagura.send5ButImg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.thumb, btn)
+                        kagura.send5ButImg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Andhi Permana`, global.thumb, btn)
                         } else if (setbot.templateGif) {
-                        kagura.send5ButGif(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButGif(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Andhi Permana`, global.visoka, btn)
                         } else if (setbot.templateVid) {
-                        kagura.send5ButVid(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButVid(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Andhi Permana`, global.visoka, btn)
                         } else if (setbot.templateMsg) {
-                        kagura.send5ButMsg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, btn)
+                        kagura.send5ButMsg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Andhi Permana`, btn)
                         }
                      }
             break
